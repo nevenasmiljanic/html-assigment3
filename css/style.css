@@ -1,0 +1,96 @@
+body {
+    width: 960px;
+    margin: 20px auto;
+    background-color: azure;
+}
+section {
+    display: inline-block;
+    width: 650px;
+    padding: 0 0 0 10px;
+    border-left: 1px double gray;
+    margin-bottom: 10px;
+}
+aside {
+    display: inline-block;
+    width: 289px;
+    padding: 0 10px 0 0;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+h1 {
+    color: #635f6b;
+    font-style: oblique;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif; 
+    text-decoration: underline;
+    text-shadow: 3px 3px #cdcbd1;
+}
+h2 {
+    color: #797582;
+    font-style: oblique;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    }
+h3 {
+    color: #77a7e6;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px #353c45;
+    }
+p {
+    color: dimgrey;
+    font-style: normal;
+    text-align: justify;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+    
+}
+ul {
+    list-style-type: none;
+}
+nav {
+    color: #685e7a;
+    font-size: 20px;
+    font-family: Verdana;
+    line-height: 30px;
+    font-style: italic;
+   }
+table {
+    font-family: 'Titillium Web', sans-serif;
+    will-change: 90%;
+    border-collapse: collapse;
+    margin: 10px auto;
+    color: #483e59;
+    padding-top: 10px;
+}
+tr {
+    background-color: #d9d3e3;
+}
+th {
+    padding: 20px;
+   }
+td {
+    padding: 10px;
+}
+th,td {
+    border: 2px double darkgray;
+}
+#naslovna {
+    background-color: #b190e8;
+    color: black;    
+}
+.parna {
+    background-color: #d7d1e0;    
+}
+blockquote {
+    border: 3px double #2b4566;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    font-family: sans-serif;
+    color: #4f76a8;
+    font-weight: bold;
+}
